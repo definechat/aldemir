@@ -94,7 +94,7 @@ export const PLANS: PlanOption[] = [
       'Sem fidelidade contratual ou multas',
       'Suporte humano direto no WhatsApp'
     ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=68165dbb7f59480c07b83133e0a4b0e9'
+    checkoutLink: 'https://pingopay.com.br/checkout.php?p=354c7e59327ed50d075ee89d6a631890'
   },
   // TIM PLANS
   {
@@ -115,7 +115,7 @@ export const PLANS: PlanOption[] = [
       'Sem fidelidade contratual ou multas',
       'Suporte humano direto no WhatsApp'
     ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=4ba79fe526c7355bfe4f0ed13f871427'
+    checkoutLink: 'https://pingopay.com.br/checkout.php?p=421f8adf47e90a5ef22925f971c106fc'
   },
   {
     id: 'tim-200gb',
@@ -135,7 +135,7 @@ export const PLANS: PlanOption[] = [
       'Sem fidelidade contratual ou multas',
       'Suporte humano direto no WhatsApp'
     ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=140e655659a8e3fce3f86f86be4fa788'
+    checkoutLink: 'https://pingopay.com.br/checkout.php?p=4b07ce982106d6126c0fa81edb3001cd'
   },
   // CLARO PLANS
   {
@@ -156,7 +156,7 @@ export const PLANS: PlanOption[] = [
       'Sem fidelidade contratual ou multas',
       'Suporte humano direto no WhatsApp'
     ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=a871844a0ee49e012b2b97078fa67713'
+    checkoutLink: 'https://pingopay.com.br/checkout.php?p=eaa4b68026b8c920f3dbb8a6b14f0bd9'
   },
   {
     id: 'claro-150gb',
@@ -176,7 +176,7 @@ export const PLANS: PlanOption[] = [
       'Sem fidelidade contratual ou multas',
       'Suporte humano direto no WhatsApp'
     ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=a8f3ab7a1fa8add1372b133055d99982'
+    checkoutLink: 'https://pingopay.com.br/checkout.php?p=68663042eae498a5ff8906206e4dbe16'
   }
 ];
 
