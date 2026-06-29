@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Internet ilimitada",
+  "description": "Página de vendas premium e de alta conversão para ativação de internet ilimitada da Federal Connect",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

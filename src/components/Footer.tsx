@@ -1,0 +1,104 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import React from 'react';
+import { Shield, Sparkles, Phone, Mail, FileText, CheckCircle2, Cpu, Wifi } from 'lucide-react';
+
+export default function Footer() {
+  
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-slate-900 text-slate-300 font-sans text-xs border-t border-slate-800" id="app-footer">
+      
+      {/* Upper Footer Segment */}
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-slate-800">
+          
+          {/* Column 1: Brand details */}
+          <div className="md:col-span-5 space-y-4">
+            <div className="flex items-center gap-2.5">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white shadow-md relative overflow-hidden">
+                <Cpu className="h-5.5 w-5.5 stroke-[2]" />
+                <Wifi className="h-3 w-3 absolute bottom-1 right-1 text-emerald-300 stroke-[2.5]" />
+              </div>
+              <span className="font-sans font-black tracking-tight text-white text-base">
+                ChipLivre<span className="text-brand-400 font-bold"> Brasil</span>
+              </span>
+            </div>
+            
+            <p className="text-slate-400 leading-normal max-w-sm text-[11.5px]">
+              Associação de Conectividade Corporativa de Alto Nível. Fornecemos internet móvel ilimitada original, de alta prioridade corporativa, com total segurança jurídica e conformidade regulatória.
+            </p>
+
+            <div className="flex items-center gap-2 text-slate-400 text-[11px] font-mono">
+              <CheckCircle2 className="h-4 w-4 text-emerald-555 text-emerald-500" />
+              <span>Homologado em Conformidade com a ANATEL</span>
+            </div>
+          </div>
+
+          {/* Column 2: Legal links */}
+          <div className="md:col-span-3 space-y-3">
+            <h4 className="font-sans font-bold text-white text-[12.5px] uppercase tracking-wider">Políticas & Contratos</h4>
+            <ul className="space-y-2 text-[11px] text-slate-450">
+              <li>
+                <a href="#termos" className="hover:text-brand-400 transition-colors flex items-center gap-1.5">
+                  <FileText className="h-3.5 w-3.5" /> Termos de Associação Coletiva
+                </a>
+              </li>
+              <li>
+                <a href="#privacidade" className="hover:text-brand-400 transition-colors flex items-center gap-1.5">
+                  <FileText className="h-3.5 w-3.5" /> Diretrizes de Privacidade LGPD
+                </a>
+              </li>
+              <li>
+                <a href="#garantia" className="hover:text-brand-400 transition-colors flex items-center gap-1.5">
+                  <FileText className="h-3.5 w-3.5" /> Política de Garantia e Reembolso
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 3: Contact details */}
+          <div className="md:col-span-4 space-y-3">
+            <h4 className="font-sans font-bold text-white text-[12.5px] uppercase tracking-wider">Canais Oficiais</h4>
+            <ul className="space-y-2 text-[11px] text-slate-400">
+              <li className="flex items-center gap-1.5">
+                <Phone className="h-3.5 w-3.5 text-brand-400" />
+                <span>WhatsApp: +55 (11) 98184-7351 (Suporte das 08h às 22h)</span>
+              </li>
+              <li className="flex items-center gap-1.5">
+                <Mail className="h-3.5 w-3.5 text-brand-400" />
+                <span>E-mail: contato@chiplivre.com.br</span>
+              </li>
+              <li className="font-mono text-[10px] text-slate-500">
+                Razão Social: CHIPLIVRE BRASIL SERVICOS TELECOM LTDA<br />
+                CNPJ Oficial: 42.150.932/0001-87
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        {/* Lower Disclaimer Statement - EXTREMELY IMPORTANT for legal legitimacy */}
+        <div className="pt-8 space-y-4">
+          <p className="text-[10px] text-slate-500 leading-relaxed font-sans text-justify">
+            <strong>Aviso de Isenção e Esclarecimento de Parceria:</strong> A ChipLivre Brasil é uma associação independente que contrata e gerencia linhas corporativas empresariais com permissão regulatória de revenda para seus associados sob as diretrizes vigentes das telecomunicações brasileiras. As marcas TIM, Vivo e Claro, bem como seus respectivos logotipos e nomes, são marcas registradas de suas respectivas operadoras concessionárias móveis. A ChipLivre Brasil não possui vínculo societário direto com as operadoras citadas, operando apenas como cliente final corporativa (através de lotes) e repassando o sinal original físico de rede emitido pelas concessionárias, garantindo o funcionamento estrito sem VPN nas antenas físicas originais.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-slate-500 border-t border-slate-800/60 pt-4">
+            <span>© {currentYear} ChipLivre Brasil. Todos os direitos reservados.</span>
+            <div className="flex items-center gap-1">
+              <span>Desenvolvido com tecnologia de ponta</span>
+              <Sparkles className="h-3 w-3 text-brand-400" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+  );
+}
