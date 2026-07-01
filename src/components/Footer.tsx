@@ -22,12 +22,12 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <img 
                 src="https://i.imgur.com/XkjH9IQ.png" 
-                alt="Internet Limitada Logo" 
+                alt="INTERNET ILIMITADA Logo" 
                 className="h-10 w-auto object-contain bg-slate-900/40 p-1 rounded-lg" 
                 referrerPolicy="no-referrer" 
               />
               <span className="font-sans font-black tracking-tight text-white text-base">
-                Internet Limitada
+                INTERNET ILIMITADA
               </span>
             </div>
             
@@ -93,11 +93,11 @@ export default function Footer() {
           </div>
 
           <p className="text-[10px] text-slate-500 leading-relaxed font-sans text-justify">
-            <strong>Aviso de Isenção e Esclarecimento de Parceria:</strong> A Internet Limitada é uma associação independente que contrata e gerencia linhas corporativas empresariais com permissão regulatória de revenda para seus associados sob as diretrizes vigentes das telecomunicações brasileiras. As marcas TIM, Vivo e Claro, bem como seus respectivos logotipos e nomes, são marcas registradas de suas respectivas operadoras concessionárias móveis. A Internet Limitada não possui vínculo societário direto com as operadoras citadas, operando apenas como cliente final corporativa (através de lotes) e repassando o sinal original físico de rede emitido pelas concessionárias, garantindo o funcionamento estrito sem VPN nas antenas físicas originais.
+            <strong>Aviso de Isenção e Esclarecimento de Parceria:</strong> A INTERNET ILIMITADA é uma associação independente que contrata e gerencia linhas corporativas empresariais com permissão regulatória de revenda para seus associados sob as diretrizes vigentes das telecomunicações brasileiras. As marcas TIM, Vivo e Claro, bem como seus respectivos logotipos e nomes, são marcas registradas de suas respectivas operadoras concessionárias móveis. A INTERNET ILIMITADA não possui vínculo societário direto com as operadoras citadas, operando apenas como cliente final corporativa (através de lotes) e repassando o sinal original físico de rede emitido pelas concessionárias, garantindo o funcionamento estrito sem VPN nas antenas físicas originais.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-slate-500 border-t border-slate-800/60 pt-4">
-            <span>© {currentYear} Internet Limitada. Todos os direitos reservados.</span>
+            <span>© {currentYear} INTERNET ILIMITADA. Todos os direitos reservados.</span>
             <div className="flex items-center gap-1">
               <span>Desenvolvido com tecnologia de ponta</span>
               <Sparkles className="h-3 w-3 text-brand-400" />

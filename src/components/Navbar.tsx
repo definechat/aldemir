@@ -30,14 +30,14 @@ export default function Navbar({ onOpenCheckout }: NavbarProps) {
         <div className="flex items-center gap-3">
           <img 
             src="https://i.imgur.com/XkjH9IQ.png" 
-            alt="Internet Limitada Logo" 
+            alt="INTERNET ILIMITADA Logo" 
             className="h-10 w-auto object-contain" 
             referrerPolicy="no-referrer" 
           />
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-sans font-black tracking-tight text-slate-900 text-base sm:text-lg">
-                Internet Limitada
+                INTERNET ILIMITADA
               </span>
               <span className="hidden sm:inline-flex rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-bold text-brand-600 uppercase tracking-wide">
                 Conectividade

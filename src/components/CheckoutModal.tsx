@@ -163,7 +163,7 @@ export default function CheckoutModal({
                       Finalize sua habilitação associativa
                     </h2>
                     <p className="text-xs text-slate-500 leading-relaxed">
-                      Sua linha será ativada e acompanhada pela equipe Internet Limitada.
+                      Sua linha será ativada e acompanhada pela equipe INTERNET ILIMITADA.
                     </p>
                   </div>
 
