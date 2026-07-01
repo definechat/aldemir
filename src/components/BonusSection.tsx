@@ -157,7 +157,7 @@ export default function BonusSection({ onOpenCheckout }: BonusSectionProps) {
                 Você não está contratando apenas internet móvel regular
               </h3>
               <p className="text-slate-300 text-xs md:text-sm leading-relaxed">
-                A <strong>ChipLivre Brasil</strong> foi desenhada para romper com as amarras das operadoras tradicionais brasileira. Reunimos em uma única assinatura corporativa simplificada conectividade estável extrema, clube de vantagens reais com retorno financeiro ativo e atendimento VIP sem robozinho.
+                A <strong>Internet Limitada</strong> foi desenhada para romper com as amarras das operadoras tradicionais brasileira. Reunimos em uma única assinatura corporativa simplificada conectividade estável extrema, clube de vantagens reais com retorno financeiro ativo e atendimento VIP sem robozinho.
               </p>
             </div>
 

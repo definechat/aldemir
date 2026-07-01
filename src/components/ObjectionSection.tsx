@@ -73,7 +73,7 @@ export default function ObjectionSection({ onOpenCheckout }: ObjectionSectionPro
                   <Award className="h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-sans font-extrabold text-slate-900 text-sm">Garantia ChipLivre Brasil</h4>
+                  <h4 className="font-sans font-extrabold text-slate-900 text-sm">Garantia Internet Limitada</h4>
                   <p className="text-[10.5px] text-slate-500 leading-tight">Garantia Plena de Segurança Consumerista</p>
                 </div>
               </div>

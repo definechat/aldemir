@@ -544,7 +544,7 @@ export default function FeedbackReviews({ onOpenCheckout }: FeedbackReviewsProps
           </div>
 
           <p className="text-xs md:text-sm text-slate-500 font-medium max-w-xl mx-auto leading-relaxed">
-            “Milhares de clientes já utilizam a ChipLivre Brasil para economizar e navegar com mais liberdade.”
+            “Milhares de clientes já utilizam a Internet Limitada para economizar e navegar com mais liberdade.”
           </p>
         </div>
 
@@ -555,7 +555,7 @@ export default function FeedbackReviews({ onOpenCheckout }: FeedbackReviewsProps
               <Sparkles className="h-4 w-4 text-amber-500" /> Faça como mais de 150 mil brasileiros
             </p>
             <p className="text-xs text-brand-200 leading-relaxed max-w-xl">
-              Pare de gastar fortunas com faturas que limitam sua internet móvel. Associe-se à ChipLivre Brasil sem compromisso.
+              Pare de gastar fortunas com faturas que limitam sua internet móvel. Associe-se à Internet Limitada sem compromisso.
             </p>
           </div>
           <button

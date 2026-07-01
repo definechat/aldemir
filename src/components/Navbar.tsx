@@ -26,16 +26,18 @@ export default function Navbar({ onOpenCheckout }: NavbarProps) {
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         
-        {/* Brand Logo design resembling Fintech & Telecom alliance */}
-        <div className="flex items-center gap-2.5">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-600/10 relative overflow-hidden group">
-            <Cpu className="h-5.5 w-5.5 stroke-[2] absolute group-hover:scale-110 transition-transform" />
-            <Wifi className="h-3 w-3 absolute bottom-1 right-1 text-emerald-300 stroke-[2.5]" />
-          </div>
+        {/* Brand Logo design with new official logo */}
+        <div className="flex items-center gap-3">
+          <img 
+            src="https://i.imgur.com/XkjH9IQ.png" 
+            alt="Internet Limitada Logo" 
+            className="h-10 w-auto object-contain" 
+            referrerPolicy="no-referrer" 
+          />
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-sans font-black tracking-tight text-slate-900 text-base sm:text-lg">
-                ChipLivre<span className="text-brand-500 font-bold"> Brasil</span>
+                Internet Limitada
               </span>
               <span className="hidden sm:inline-flex rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-bold text-brand-600 uppercase tracking-wide">
                 Conectividade

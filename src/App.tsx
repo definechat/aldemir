@@ -79,7 +79,7 @@ export default function App() {
       const matchedPlan = PLANS.find(p => p.productCode === planRef || p.id === planRef);
       
       const price = matchedPlan ? matchedPlan.price : (Number(params.get('price') || params.get('value') || params.get('valor')) || 80.00);
-      const contentName = matchedPlan ? `${matchedPlan.operator} ${matchedPlan.dataGb}` : (params.get('content_name') || 'Assinatura ChipLivre');
+      const contentName = matchedPlan ? `${matchedPlan.operator} ${matchedPlan.dataGb}` : (params.get('content_name') || 'Assinatura Internet Limitada');
       
       // Deduplicate to prevent double-firing Purchase events on manual page refreshes
       const transactionId = params.get('transaction_id') || params.get('payment_id') || params.get('id') || 'tx_wipay_' + (planRef || 'val') + '_' + price;
@@ -95,7 +95,7 @@ export default function App() {
     }
 
     // Direct and safe ViewContent tracking upon initial mount
-    pixelService.trackViewContent('Landing Page ChipLivre Brasil', 'Planos Ilimitados', 80.00);
+    pixelService.trackViewContent('Landing Page Internet Limitada', 'Planos Ilimitados', 80.00);
 
     const prod = params.get('produto');
     // Only auto-open checkout if we are not landing from a successful purchase callback
@@ -114,7 +114,7 @@ export default function App() {
       channel: 'WhatsApp',
       target: 'Consultor Especializado'
     });
-    window.location.href = `https://w.app/federalconect`;
+    window.location.href = `https://wa.me/5544991791576`;
   };
 
   const handleScrollToPlans = () => {

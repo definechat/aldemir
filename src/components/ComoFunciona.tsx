@@ -111,7 +111,7 @@ export default function ComoFunciona({ onOpenCheckout }: ComoFuncionaProps) {
               Você não precisa configurar sozinho.
             </h3>
             <p className="text-xs text-purple-200 leading-normal font-sans">
-              Um atendente real do suporte técnico da ChipLivre Brasil acompanha você passo a passo no seu WhatsApp comercial para instalar o seu chip, portar o seu número antigo ou tirar qualquer dúvida técnica. Simples assim.
+              Um atendente real do suporte técnico da Internet Limitada acompanha você passo a passo no seu WhatsApp comercial para instalar o seu chip, portar o seu número antigo ou tirar qualquer dúvida técnica. Simples assim.
             </p>
             <div className="pt-2">
               <button

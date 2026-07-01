@@ -16,7 +16,7 @@ export default function FaqSection() {
   };
 
   const handleWhatsappSupport = () => {
-    const text = encodeURIComponent("Olá ChipLivre Brasil! Tenho algumas dúvidas extras sobre a internet ilimitada empresarial antes de assinar. Pode me atender?");
+    const text = encodeURIComponent("Olá! Tenho algumas dúvidas extras sobre a internet ilimitada antes de assinar. Pode me atender?");
     window.location.href = `https://wa.me/5544991791576?text=${text}`;
   };
 

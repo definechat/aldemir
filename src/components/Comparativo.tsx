@@ -48,7 +48,7 @@ export default function Comparativo({ onOpenCheckout }: ComparativoProps) {
             Liberdade móvel sem amarras corporativas ou judiciais
           </h2>
           <p className="text-slate-600 text-sm md:text-base leading-relaxed">
-            Compare os problemas crônicos dos planos oferecidos diretamente pelas operadoras com as vantagens exclusivas do modelo associativo inovador da ChipLivre Brasil.
+            Compare os problemas crônicos dos planos oferecidos diretamente pelas operadoras com as vantagens exclusivas do modelo associativo inovador da Internet Limitada.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function Comparativo({ onOpenCheckout }: ComparativoProps) {
                   <th className="p-4 sm:p-6 text-xs font-bold uppercase tracking-wider text-slate-500 w-1/4">Critério</th>
                   <th className="p-4 sm:p-6 text-xs font-bold uppercase tracking-wider text-slate-400 w-3/8">Operadoras Comuns (Física)</th>
                   <th className="p-4 sm:p-6 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50/30 w-3/8 flex items-center gap-1.5 font-sans">
-                    <Sparkles className="h-4 w-4 animate-bounce text-brand-500" /> ChipLivre Brasil
+                    <img src="https://i.imgur.com/XkjH9IQ.png" alt="Internet Limitada" className="h-5 w-auto object-contain inline-block" referrerPolicy="no-referrer" /> Internet Limitada
                   </th>
                 </tr>
               </thead>
