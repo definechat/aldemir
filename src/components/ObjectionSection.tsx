@@ -91,7 +91,7 @@ export default function ObjectionSection({ onOpenCheckout }: ObjectionSectionPro
                 
                 <div className="rounded-xl bg-slate-50 p-3 flex items-center justify-center gap-2.5 border border-slate-100">
                   <span className="text-[11px] font-mono font-bold tracking-tight text-brand-700">
-                    CNPJ REGULARIZADO: 42.150.932/0001-87
+                    CNPJ REGULARIZADO: 45.147.258/0001-53
                   </span>
                 </div>
               </div>

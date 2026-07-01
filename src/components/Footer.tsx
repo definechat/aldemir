@@ -67,15 +67,15 @@ export default function Footer() {
             <ul className="space-y-2 text-[11px] text-slate-400">
               <li className="flex items-center gap-1.5">
                 <Phone className="h-3.5 w-3.5 text-brand-400" />
-                <span>WhatsApp: +55 (11) 98184-7351 (Suporte das 08h às 22h)</span>
+                <span>WhatsApp: (44) 99179-1576</span>
               </li>
               <li className="flex items-center gap-1.5">
                 <Mail className="h-3.5 w-3.5 text-brand-400" />
-                <span>E-mail: contato@chiplivre.com.br</span>
+                <span>E-mail: contato@internetilimitadabrasil.com</span>
               </li>
               <li className="font-mono text-[10px] text-slate-500">
-                Razão Social: CHIPLIVRE BRASIL SERVICOS TELECOM LTDA<br />
-                CNPJ Oficial: 42.150.932/0001-87
+                Intermediador Autorizado: Licineide Coli De Pontes<br />
+                CNPJ: 45.147.258/0001-53
               </li>
             </ul>
           </div>
@@ -84,6 +84,12 @@ export default function Footer() {
 
         {/* Lower Disclaimer Statement - EXTREMELY IMPORTANT for legal legitimacy */}
         <div className="pt-8 space-y-4">
+          <div className="p-4 rounded-lg bg-slate-950/60 border border-slate-800 text-slate-400 text-[11px] leading-relaxed">
+            <p className="text-justify font-sans">
+              Intermediador de Negócios Autorizado - Licineide Coli De Pontes (CNPJ: 45.147.258/0001-53) email: <a href="mailto:contato@internetilimitadabrasil.com" className="text-brand-400 hover:underline">contato@internetilimitadabrasil.com</a> whats app <a href="https://wa.me/5544991791576" target="_blank" rel="noreferrer" className="text-brand-400 hover:underline">(44) 99179-1576</a>. A prestação dos serviços de telefonia, entrega do sinal de internet e suporte técnico oficial é de responsabilidade exclusiva da provedora Federal Associados (CNPJ: 35.215.115/0001-31 | Suporte SAC: 0800 200 0038).
+            </p>
+          </div>
+
           <p className="text-[10px] text-slate-500 leading-relaxed font-sans text-justify">
             <strong>Aviso de Isenção e Esclarecimento de Parceria:</strong> A ChipLivre Brasil é uma associação independente que contrata e gerencia linhas corporativas empresariais com permissão regulatória de revenda para seus associados sob as diretrizes vigentes das telecomunicações brasileiras. As marcas TIM, Vivo e Claro, bem como seus respectivos logotipos e nomes, são marcas registradas de suas respectivas operadoras concessionárias móveis. A ChipLivre Brasil não possui vínculo societário direto com as operadoras citadas, operando apenas como cliente final corporativa (através de lotes) e repassando o sinal original físico de rede emitido pelas concessionárias, garantindo o funcionamento estrito sem VPN nas antenas físicas originais.
           </p>
