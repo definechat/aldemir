@@ -26,7 +26,7 @@ export default function CheckoutModal({
 }: CheckoutModalProps) {
   const [operator, setOperator] = useState<OperatorType>(initialOperator);
   const [chipType, setChipType] = useState<'eSIM' | 'CHIP'>(initialType);
-  const [selectedProduct, setSelectedProduct] = useState<string>('vivo80');
+  const [selectedProduct, setSelectedProduct] = useState<string>('vivo60');
   const [step, setStep] = useState<1 | 2>(1);
   const [name, setName] = useState('');
   const [whatsapp, setWhatsapp] = useState('');

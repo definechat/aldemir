@@ -77,17 +77,17 @@ export const OPERATOR_DETAILS: Record<OperatorType, { name: string; color: strin
 export const PLANS: PlanOption[] = [
   // VIVO PLANS
   {
-    id: 'vivo-80gb',
+    id: 'vivo-60gb',
     name: 'VIVO',
-    dataGb: '80GB',
+    dataGb: '60GB',
     price: 69.90,
     highlight: true,
     operator: 'VIVO',
-    productCode: 'vivo80',
+    productCode: 'vivo60',
     hasCalling: true,
     description: 'Internet + benefícios exclusivos.',
     features: [
-      '80GB de Internet 4G/5G de alta prioridade',
+      '60GB de Internet 4G/5G de alta prioridade',
       'Ligações ilimitadas para todo o Brasil',
       'eSIM ativado em 15min ou Chip Físico Correios',
       'Ativação assistida passo a passo',
