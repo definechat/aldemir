@@ -20,13 +20,13 @@ interface CheckoutModalProps {
 export default function CheckoutModal({
   isOpen,
   onClose,
-  selectedOperator: initialOperator = 'VIVO',
+  selectedOperator: initialOperator = 'CLARO',
   selectedType: initialType = 'eSIM',
   selectedProductCode
 }: CheckoutModalProps) {
   const [operator, setOperator] = useState<OperatorType>(initialOperator);
   const [chipType, setChipType] = useState<'eSIM' | 'CHIP'>(initialType);
-  const [selectedProduct, setSelectedProduct] = useState<string>('vivo60');
+  const [selectedProduct, setSelectedProduct] = useState<string>('claro80');
   const [step, setStep] = useState<1 | 2>(1);
   const [name, setName] = useState('');
   const [whatsapp, setWhatsapp] = useState('');
@@ -233,8 +233,8 @@ export default function CheckoutModal({
                     <label className="block text-xs font-semibold text-slate-700 font-sans">
                       1. Confirmar infraestrutura de sinal (Operadora)
                     </label>
-                    <div className="grid grid-cols-3 gap-2">
-                      {(['CLARO', 'TIM', 'VIVO'] as OperatorType[]).map((op) => {
+                    <div className="grid grid-cols-2 gap-2">
+                      {(['CLARO', 'TIM'] as OperatorType[]).map((op) => {
                         const isSel = operator === op;
                         const details = OPERATOR_DETAILS[op];
                         return (

@@ -75,27 +75,6 @@ export const OPERATOR_DETAILS: Record<OperatorType, { name: string; color: strin
 };
 
 export const PLANS: PlanOption[] = [
-  // VIVO PLANS
-  {
-    id: 'vivo-60gb',
-    name: 'VIVO',
-    dataGb: '60GB',
-    price: 69.90,
-    highlight: true,
-    operator: 'VIVO',
-    productCode: 'vivo60',
-    hasCalling: true,
-    description: 'Internet + benefícios exclusivos.',
-    features: [
-      '60GB de Internet 4G/5G de alta prioridade',
-      'Ligações ilimitadas para todo o Brasil',
-      'eSIM ativado em 15min ou Chip Físico Correios',
-      'Ativação assistida passo a passo',
-      'Sem fidelidade contratual ou multas',
-      'Suporte humano direto no WhatsApp'
-    ],
-    checkoutLink: 'https://pingopay.com.br/checkout.php?p=354c7e59327ed50d075ee89d6a631890'
-  },
   // TIM PLANS
   {
     id: 'tim-100gb',

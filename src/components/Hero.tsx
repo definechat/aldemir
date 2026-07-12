@@ -54,13 +54,11 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
           {/* Operator switcher tabs */}
           <div className="flex justify-center mb-8 relative z-10">
             <div className="inline-flex rounded-2xl bg-white/80 backdrop-blur-xs p-1.5 border border-slate-200 shadow-sm">
-              {(['CLARO', 'TIM', 'VIVO'] as OperatorType[]).map((op) => {
+              {(['CLARO', 'TIM'] as OperatorType[]).map((op) => {
                 const isActive = activeOperatorTab === op;
                 let activeStyle = '';
-                if (op === 'VIVO') {
-                  activeStyle = 'bg-purple-600 text-white shadow-md shadow-purple-600/15';
-                } else if (op === 'TIM') {
-                  activeStyle = 'bg-slate-900 text-white shadow-md shadow-slate-900/15';
+                if (op === 'TIM') {
+                  activeStyle = 'bg-blue-600 text-white shadow-md shadow-blue-600/15';
                 } else {
                   activeStyle = 'bg-red-600 text-white shadow-md shadow-red-600/15';
                 }
@@ -74,7 +72,7 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
                         : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/50'
                     }`}
                   >
-                    {op === 'VIVO' ? '🟣 VIVO' : op === 'TIM' ? '⚫ TIM' : '🔴 CLARO'}
+                    {op === 'TIM' ? '🔵 TIM' : '🔴 CLARO'}
                   </button>
                 );
               })}
@@ -104,11 +102,11 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
                 bulletColor = plan.highlight ? 'text-purple-300' : 'text-slate-705';
               } else if (activeOperatorTab === 'TIM') {
                 highlightsStyle = plan.highlight
-                  ? 'bg-gradient-to-br from-slate-900 via-slate-950 to-neutral-950 text-white border-2 border-slate-600 shadow-xl shadow-slate-950/25'
-                  : 'bg-white border text-slate-900 border-slate-200 hover:border-slate-350';
-                btnStyle = 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-md shadow-slate-900/20';
-                checkIndicatorBg = plan.highlight ? 'bg-white/10 text-slate-300' : 'bg-slate-100 text-slate-700';
-                bulletColor = plan.highlight ? 'text-slate-300' : 'text-slate-705';
+                  ? 'bg-gradient-to-br from-blue-900 via-blue-950 to-slate-950 text-white border-2 border-blue-500 shadow-xl shadow-blue-950/20'
+                  : 'bg-white border text-slate-900 border-blue-100 hover:border-blue-200';
+                btnStyle = 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-md shadow-blue-600/20';
+                checkIndicatorBg = plan.highlight ? 'bg-blue-500/15 text-blue-300' : 'bg-blue-50 text-blue-700';
+                bulletColor = plan.highlight ? 'text-blue-300' : 'text-slate-700';
               } else {
                 highlightsStyle = plan.highlight
                   ? 'bg-gradient-to-br from-red-950 via-slate-950 to-red-955 text-white border-2 border-red-500 shadow-xl shadow-red-955/25'
@@ -133,7 +131,13 @@ export default function Hero({ onOpenCheckout }: HeroProps) {
 
                   <div className="space-y-5">
                     <div>
-                      <h3 className={`font-sans font-black text-md sm:text-lg ${plan.highlight ? 'text-purple-200' : 'text-slate-900'}`}>
+                      <h3 className={`font-sans font-black text-md sm:text-lg ${
+                        plan.highlight
+                          ? activeOperatorTab === 'TIM'
+                            ? 'text-blue-200'
+                            : 'text-red-200'
+                          : 'text-slate-900'
+                      }`}>
                         {plan.name}
                       </h3>
                       <div className="mt-2.5 flex items-baseline gap-0.5">
